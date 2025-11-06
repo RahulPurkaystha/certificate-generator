@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Certificate of Participation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Certificate of Participation</h1>
+    <p>Enter your Full Name: </p>
+    <input type="text" id="nameInput" placeholder="Enter your Name" />
+    <p>Enter your Father Name or Mother Name :</p>
+    <input type="text" id="fnameInput" placeholder="Enter your Father/Mother Name" />
+    <p>
+    <button onclick="generateCertificate()">Generate Certificate</button>
+    </p>
+    <div class="certificate-area">
+      <canvas id="certificateCanvas" width="1000" height="700"></canvas>
+    </div>
+
+    <a id="downloadBtn" style="display:none" download="certificate.png">Download Certificate</a>
+  </div>
+  <script src="script.js"></script>
+  <footer>
+  <p>
+    Designed & Developed by <strong>NIC Sribhumi</strong>
+  </p>
+  </footer>
+</body>
+</html>

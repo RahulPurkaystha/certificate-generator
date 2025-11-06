@@ -1,0 +1,79 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+background: linear-gradient(
+        to bottom,
+        #FF9933,  /* Saffron (orange) */
+        white,
+        #138808   /* Green */
+      );
+     /* For a transparent "glass" effect */
+      background-attachment: fixed;
+    }
+
+    .transparent-box {
+      background: rgba(255, 255, 255, 0.2); /* semi-transparent white */
+      backdrop-filter: blur(10px); /* glass effect */
+      padding: 40px 60px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      color: #000;
+    }
+
+
+
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 40px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #0086dd;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #004de6;
+}
+
+.certificate-area {
+  margin-top: 30px;
+}
+
+#certificateCanvas {
+  border: 2px solid #444;
+  max-width: 100%;
+  height: auto;
+}
+
+#downloadBtn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0086dd;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#downloadBtn:hover {
+  background-color: #1f7a34;
+}
