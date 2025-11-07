@@ -17,7 +17,7 @@ if (name === "" || fathername === "") {
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
     // Customize text
-    ctx.font = "35px Brush Script MT";
+    ctx.font = "30px Brush Script MT";
     ctx.style = "Bold";
     ctx.style = "Italic";
     ctx.textAlign = "center";

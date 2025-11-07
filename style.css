@@ -68,12 +68,12 @@ button:hover {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #2100dd;
-  color: white;
+  background-color: #130370;
+  color: rgb(13, 6, 114);
   text-decoration: none;
   border-radius: 5px;
 }
 
 #downloadBtn:hover {
-  background-color: #1f7a34;
+  background-color: #300377;
 }
