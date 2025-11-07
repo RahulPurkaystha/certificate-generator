@@ -1,5 +1,6 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-size: larger;
   text-align: center;
 
 background: linear-gradient(
@@ -30,27 +31,30 @@ background: linear-gradient(
 
 .container {
   padding: 40px;
+  font-size: medium;
+  font-family: 'Libre Baskerville', serif;
+  font-size: larger;
 }
 
 input {
   padding: 10px;
   width: 300px;
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 10px;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 20px 20px;
   margin-left: 10px;
-  background-color: #0058dd;
-  color: rgb(78, 3, 128);
+  background-color: #0313a7;
+  color: rgb(255, 255, 255);
   border: none;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 button:hover {
-  background-color: #1d0296;
+  background-color: #5f14c0;
 }
 
 .certificate-area {
@@ -67,13 +71,12 @@ button:hover {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #130370;
-  color: rgb(13, 6, 114);
+  background-color: #11016b;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   border-radius: 5px;
 }
 
 #downloadBtn:hover {
-  background-color: #010f75;
+  background-color: #5804a7;
 }
-
