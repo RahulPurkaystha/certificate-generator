@@ -33,7 +33,7 @@ background: linear-gradient(
   padding: 40px;
   font-size: medium;
   font-family: 'Libre Baskerville', serif;
-  font-size: larger;
+  font-size: large;
 }
 
 input {
@@ -80,3 +80,4 @@ button:hover {
 #downloadBtn:hover {
   background-color: #5804a7;
 }
+
