@@ -43,7 +43,7 @@ input {
 button {
   padding: 10px 20px;
   margin-left: 10px;
-  background-color: #0086dd;
+  background-color: #0058dd;
   color: white;
   border: none;
   cursor: pointer;
@@ -51,7 +51,7 @@ button {
 }
 
 button:hover {
-  background-color: #004de6;
+  background-color: #1d0296;
 }
 
 .certificate-area {
@@ -68,7 +68,7 @@ button:hover {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #0086dd;
+  background-color: #2100dd;
   color: white;
   text-decoration: none;
   border-radius: 5px;
