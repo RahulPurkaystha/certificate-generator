@@ -10,7 +10,6 @@ background: linear-gradient(
       );
      /* For a transparent "glass" effect */
       background-attachment: fixed;
-    }
 
     .transparent-box {
       background: rgba(255, 255, 255, 0.2); /* semi-transparent white */
@@ -75,5 +74,5 @@ button:hover {
 }
 
 #downloadBtn:hover {
-  background-color: #300377;
+  background-color: #1f024e;
 }
