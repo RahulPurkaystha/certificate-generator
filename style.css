@@ -23,7 +23,7 @@ background: linear-gradient(
 
 
 
-  color: #333;
+  color: #333333;
   margin: 0;
   padding: 0;
 }
@@ -43,7 +43,7 @@ button {
   padding: 10px 20px;
   margin-left: 10px;
   background-color: #0058dd;
-  color: white;
+  color: rgb(78, 3, 128);
   border: none;
   cursor: pointer;
   border-radius: 4px;
@@ -74,5 +74,5 @@ button:hover {
 }
 
 #downloadBtn:hover {
-  background-color: #1f024e;
+  background-color: #038286;
 }
